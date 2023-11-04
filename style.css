@@ -43,6 +43,14 @@ footer {
     margin: 20px auto;
 }
 
+#categories-section>img {
+    transition: all 0.5s ease-in-out;
+}
+
+#categories-section>img:hover {
+    transform: rotate(20deg)
+}
+
 .footer-r-3 {
     font-size: 14px;
     color: rgb(102, 102, 102);
@@ -125,6 +133,10 @@ td {
     padding-bottom: 10px;
 }
 
+td:hover {
+    color: rgb(84, 220, 84);
+}
+
 span {
     padding-left: 16px;
     color: rgb(12, 131, 31);
@@ -141,6 +153,8 @@ span {
 .my-list {
     white-space: nowrap;
 }
+
+
 
 .my-list>img {
     display: inline-block;
@@ -186,6 +200,13 @@ span {
     width: 200px;
     display: inline-block !important;
     margin-inline: 15px;
+    transition: all 0.5s ease;
+
+}
+
+.my-card:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card-section {
@@ -196,6 +217,12 @@ span {
 .my-card>img {
     width: 90%;
     margin: auto;
+}
+
+.name {
+    color: #833AB4;
+    font-weight: bold;
+    text-shadow: #b990e0 1px 0 10px;
 }
 
 @media screen and (max-width:480px) {
